@@ -21,5 +21,10 @@ pipeline {
                 }
             }
         }
+        stage('Alex-Deliver') { 
+            steps {
+                sh './jenkins/scripts/deliver.sh' 
+            }
+        }
     }
 }
