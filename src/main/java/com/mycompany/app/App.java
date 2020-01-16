@@ -12,7 +12,7 @@ public class App
 
     public static void main(String[] args) {
         System.out.println(new App().getMessage());
-        System.out.println("Test Github automatic trigger");
+        System.out.println("Hi, Test Github automatic trigger");
     }
 
     private final String getMessage() {
