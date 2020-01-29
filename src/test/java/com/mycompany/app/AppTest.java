@@ -34,9 +34,9 @@ public class AppTest
     {
         App.main(null);
         try {
-            assertEquals("Hi, Test Github automatic trigger!" + System.getProperty("line.separator"), outContent.toString());
+            assertEquals("Hi, Test Github automatic trigger" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
-            fail("\"message\" (" + outContent.toString() +") is not \"Hi, Test Github automatic trigger!\"");
+            fail("\"message\" (" + outContent.toString() +") is not \"Hi, Test Github automatic trigger\"");
         }
     }
 
